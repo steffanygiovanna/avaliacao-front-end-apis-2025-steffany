@@ -1,0 +1,12 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --p1: #000000;
+    --p2: #333333;
+    --p3: #cccccc;
+    --p4: #ffffff;
+}
