@@ -18,7 +18,7 @@ O objetivo deste desafio é avaliar suas habilidades em desenvolvimento de pági
 
 - Crie uma tela de login com campos para usuário e senha.
 - Utilize a API [DummyJSON](https://dummyjson.com/docs/auth) para autenticar o usuário. A rota de autenticação é `https://dummyjson.com/auth/login`.
-- As credenciais do usuário devem ser armazenadas de forma segura no dispositivo (por exemplo, usando LocalStorage) para que o usuário permaneça logado ao entrar e sair da página junto com a estratégia de refreshtoken quando o token do usuário expirar.
+- As credenciais do usuário devem ser armazenadas de forma segura no dispositivo (por exemplo, usando LocalStorage) para que o usuário permaneça logado ao entrar na página junto com a estratégia de refreshtoken quando o token do usuário expirar.
 - Adicione uma funcionalidade de logout.
 
 ### 2. Tela de Listagem de Posts
