@@ -76,11 +76,11 @@ Serão avaliados os seguintes pontos:
 2. Implemente a solução.
 3. Faça commits frequentes e claros.
 
-   -IMAGENS:
+   ## IMAGENS:
 -Tela de Login:
 
-<img src="printlogin.png"
+![](./printlogin.png)
 
 -Tela de Posts:
 
-<img src="printposts.png"
+<img src="printposts.png">
