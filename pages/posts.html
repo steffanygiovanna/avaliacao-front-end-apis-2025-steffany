@@ -1,18 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/main.css">
-    <title>Login Posts</title>
+    <title>Posts - Posts App</title>
+    <link rel="stylesheet" href="../styles/post.css">
 </head>
-
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-</body>
-<script src="../scripts/posts.js"></script>
+    <header class="header">
+        <div class="header-content">
+            <h1>Posts</h1>
+            <button id="logoutBtn" class="logout-btn">Sair</button>
+        </div>
+    </header>
 
+    <main class="main-content">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Buscar posts por título...">
+        </div>
+
+        <div id="postsContainer" class="posts-container">
+     
+        </div>
+
+        <div id="loadingMessage" class="loading-message">Carregando posts...</div>
+    </main>
+
+    <div id="postModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalBody"></p>
+        </div>
+    </div>
+
+    <script src="../scripts/posts.js"></script>
+</body>
 </html>
